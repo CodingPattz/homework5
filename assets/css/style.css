@@ -1,0 +1,85 @@
+
+body {
+  background-image: url('./wallpaper.jpeg');
+  background-size: cover;
+}
+
+th {
+  background-color: white;
+}
+
+th,
+td {
+  border-right: 1px solid lightgrey;
+}
+
+h1{
+  font-family: voltage,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1F0F40;
+}
+
+.far {
+  color: #1F0F40;
+}
+
+h2{
+  font-family: museo-slab,serif;
+  font-weight: 300;
+  font-style: bold;
+  color: #1F0F40;
+}
+
+p{
+  font-family: museo-slab,serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #1F0F40;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #BCB0FF;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid #1F0F40;
+  height: 245px;
+  padding-top: 30px;
+}
+
+.input-cell {
+    padding: 0px !important;
+    position: relative;
+}
+
+.input-area {
+  font-family: museo-slab,serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: 0;
+  padding: 5px 0px 0px 10px;
+  position: absolute;
+}
+
+.save-button-cell {
+  background-color: #BCB0FF;
+  width: 5%;
+}
+
+.time {
+  width: 10%;
+  border-left: 1px solid lightgray;
+  font-family: museo-slab,serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #1F0F40;
+}
+
+#title-date, #title-time {
+    margin: 0;
+}
